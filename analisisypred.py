@@ -8,7 +8,7 @@ def cargar_datos(ruta_archivo):
 if __name__ == "__main__":
     ruta_archivo = "C:\\Users\\Juan\\Downloads\\retail_sales_dataset.csv"
     datos = cargar_datos(ruta_archivo)
-    print()
+    print(datos)
     
 sales=cargar_datos("C:\\Users\\Juan\\Downloads\\retail_sales_dataset.csv")
 
