@@ -64,15 +64,15 @@ for producto, total in promedio_ventas_producto.items():
         
 
 #Identifica los productos y tiendas con mayores y menores ventas.
-print(total_ventas_producto)
+#print(total_ventas_producto)
 producto_maximo= max(total_ventas_producto, key=total_ventas_producto.get)
       
 valor_max=total_ventas_producto[producto_maximo]
-print(valor_max)
+print("El valor maximo es: ",valor_max)
 
 
 producto_minimo= min(total_ventas_producto, key=total_ventas_producto.get)
       
 valor_min=total_ventas_producto[producto_minimo]
-print(valor_min)
+print("El valor minimo es: ", valor_min)
 
