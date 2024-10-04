@@ -8,7 +8,7 @@ def cargar_datos(ruta_archivo):
 if __name__ == "__main__":
     ruta_archivo = "C:\\Users\\Juan\\Downloads\\retail_sales_dataset.csv"
     datos = cargar_datos(ruta_archivo)
-    print(datos)
+    print()
     
 sales=cargar_datos("C:\\Users\\Juan\\Downloads\\retail_sales_dataset.csv")
 
@@ -23,8 +23,8 @@ sales=cargar_datos("C:\\Users\\Juan\\Downloads\\retail_sales_dataset.csv")
 #Price per Unit
 #Total Amount
 
-print(np.shape(sales))
-print(np.ndim(sales))
+print("Tamaño del dataset: ",np.shape(sales))
+print("Dimensiones del dataset: ",np.ndim(sales))
 
 #poner los datos en formato float o int ya que al cargarlos estaban en str  
 
@@ -60,7 +60,7 @@ for producto in productos_unicos:
     promedio_ventas_producto[producto] = prmdio_ventas
 
 for producto, total in promedio_ventas_producto.items():
-    print(f"Producto: {producto}, Promedio Vendido: {total}")
+    print(f"Producto: {producto}, Promedio Vendido: {round(total,2)}")
         
 
 #Identifica los productos y tiendas con mayores y menores ventas.
