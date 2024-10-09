@@ -11,7 +11,7 @@ Este proyecto analiza y predice las ventas de una tienda de retail utilizando t√
 
 ## Instrucciones de Instalaci√≥n
 
-1. Clona el repositorio: `git clone https://github.com/tu_usuario/retail-sales-analysis.git`
+1. Clona el repositorio: `git clone https://github.com/Juan-Edwards/retail-sales-analysis.git`
 2. Instala las dependencias: `pip install -r requirements.txt`
 
 ## Uso
